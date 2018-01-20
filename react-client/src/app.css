@@ -1,0 +1,53 @@
+@import '~antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+.App {
+  text-align: center;
+}
+
+#input {
+  font-family: 'Inconsolata', monospace;
+  font-size: 32px;
+  height: 75px; 
+  width: 670px;
+  margin-left: 5vw;
+}
+
+#title {
+  font-family: 'Inconsolata', monospace;
+  font-size: 36px;
+  color: #333333;
+  text-align: left;
+  margin-left: 5.8vw;
+  margin-top: 2vh;
+}
+
+#placeholder {
+  font-family: 'Inconsolata', monospace;
+  font-size: 50px;
+  font-weight: bold;
+  color: #dbdbdb;
+  width: 400px;
+  position: absolute;
+  top: 25vh;
+  left: 37.5vw;
+}
+
+.btn {
+  font-family: Courier New;
+  font-size: 50px;
+  color: #333333;
+
+  background: #ebebeb;
+  border: none;
+  text-decoration: none;
+  position: relative;
+  padding: 0px 24px 0px 24px;
+
+  margin-left: 10vw;
+}
+
+.btn:hover {
+  background: #dbdbdb;
+  text-decoration: none;
+}

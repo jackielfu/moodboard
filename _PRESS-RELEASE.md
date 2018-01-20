@@ -1,4 +1,4 @@
-# Project Name #
+# Moodboard.io #
 
 <!-- 
 > This material was originally posted [here](http://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management). It is reproduced here for posterities sake.
@@ -16,29 +16,32 @@ Oh, and I also like to write press-releases in what I call "Oprah-speak" for mai
 Once the project moves into development, the press release can be used as a touchstone; a guiding light. The product team can ask themselves, "Are we building what is in the press release?" If they find they're spending time building things that aren't in the press release (overbuilding), they need to ask themselves why. This keeps product development focused on achieving the customer benefits and not building extraneous stuff that takes longer to build, takes resources to maintain, and doesn't provide real customer benefit (at least not enough to warrant inclusion in the press release).
  -->
  
-## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
-
-## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+## A minimalist moodboard ##
+  > Gather one, gather all (images).
 
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  > For the person who needs to curate their Spring/Summer vs. Fall/Winter aestheti`que`. 
+  > For the person upgrading their interior design to a Scandinavian post-modern architecture that doesn't scream "IKEA".
+  > But mainly for the person trying to draw inspiration from a bunch of images mish-mashed together in a semi-random, pleasing manner.
 
 ## Problem ##
-  > Describe the problem your product solves.
+  > Pinterest is painfully clunky - and between friends planning their future wedding, ridiculously obvious life 'hacks', and various recipes that require thirty ingredients and five hours to make, you realize it's probably not the platform for you. 
+  > Photoshop and Sketch are expensive, and you don't feel like saving a photo just to upload it onto a Powerpoint slide and then deleting it from your hard drive.
 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
+  > Moodboard.io is a simple, bare-bones moodboard generator that grabs any image URL you feed it and renders it on a blank page, until your page is filled with only images that you've carefully curated.
 
-## Quote from You ##
-  > A quote from a spokesperson in your company.
+## "My summer 2018 aesthetic is hoe... but make it fashion." ##
+  > - Jackie Fu, developer
 
 ## How to Get Started ##
-  > Describe how easy it is to get started.
+  > 1. Right-click any image on the web that inspires you.
+  > 2. Copy image URL.
+  > 3. Paste into Moodboard.io's image input field.
+  > 4. Voilà!
 
-## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+## "Moodboard.io cleared my acne, watered my crops, and cured my depression." ##
+  > - Someone, probably 
 
-## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
+## Ready? Go! ##
+  > Head over to //localhost:3000// to get started.
