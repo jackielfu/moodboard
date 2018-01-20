@@ -36,7 +36,7 @@
     "babel-preset-es2015": "^6.22.0",
     "babel-preset-react": "^6.23.0",
     "webpack": "^2.2.1"
-  }
+  },
   "engines": {
     "node": "4.6.1"
   } 
