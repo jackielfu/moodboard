@@ -1,10 +1,11 @@
 var express = require('express');
+var path = require('path');
 var bodyParser = require('body-parser');
 var items = require('../database-mongo');
 
 var app = express();
 
-app.use(express.static(__dirname + '/../react-client/dist'));
+app.use(express.static(__dirname + '/../react-client/dist/'));
 
 app.get('/items', function (req, res) {
   items.selectAll(function(err, data) {

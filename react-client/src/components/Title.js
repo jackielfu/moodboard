@@ -1,5 +1,4 @@
 import React from 'react';
-import {toast} from 'react-toastify';
 import Input from 'antd/lib/input';
 
 export default class Title extends React.Component {
