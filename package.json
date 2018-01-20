@@ -6,8 +6,8 @@
   "scripts": {
     "react-dev": "webpack -d --watch",
     "server-dev": "nodemon server/index.js",
-    "start": 
-    "post-install": 
+    "start": "node server/index.js",
+    "postinstall": "webpack -p --config ./webpack.config.js --progress"
   },
   "author": "Beth Johnson",
   "license": "ISC",
