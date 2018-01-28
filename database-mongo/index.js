@@ -11,12 +11,7 @@ db.once('open', function() {
   console.log('mongoose connected successfully');
 });
 
-var itemSchema = mongoose.Schema({
-  quantity: Number,
-  description: String
-});
-
-var Item = mongoose.model('Item', itemSchema);
+/************ HELPER FUNCTIONS *************/
 
 var selectAll = function(callback) {
   Item.find({}, function(err, items) {

@@ -44,4 +44,4 @@ Once the project moves into development, the press release can be used as a touc
   > - Someone, probably 
 
 ## Ready? Go! ##
-  > Head over to //localhost:3000// to get started.
+  > Head over to [moodboarded](http://moodboarded.herokuapp.com) to get started.

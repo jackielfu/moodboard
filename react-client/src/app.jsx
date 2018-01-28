@@ -16,9 +16,9 @@ export default class App extends React.Component {
 
   }
 
-  addImage(url) {
+  addImage(imgObj) {
     this.setState({
-      imageList: [...this.state.imageList, url]
+      imageList: [...this.state.imageList, imgObj]
     });
   }
 
