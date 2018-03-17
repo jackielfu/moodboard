@@ -8,23 +8,21 @@ export default class Grid extends React.Component {
   }
 
   render() {    
-    var imgs = this.props.imageList.map( (img, i) => {
+    let imgs = this.props.imageList.map( (img, i) => {
       return <Draggable key= {i} ><img draggable="false" src={img} alt=''/></Draggable>
     })
 
-    if (!this.props.imageList.length) {
-      return (
-        <h1 id="placeholder">
-          Start by adding an image!
-        </h1>
-      )
-    } else {
-      return (
-        <div>
-          {imgs}
-        </div>
-      )
-    }
-
+    return (
+      <div>
+        { !this.props.imageList.length ?
+            <h1 id="placeholder">
+              Start by adding an image!
+            </h1> :
+            <div>
+              {imgs}
+            </div>
+        }
+      </div>
+    )
   }
 }
