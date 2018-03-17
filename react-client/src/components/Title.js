@@ -28,22 +28,22 @@ export default class Title extends React.Component {
   }
 
   render() {
-
-    if (this.state.editable) {
-      return (
-        <Input id="input"
-               placeholder="Moodboard.io"
-               onChange={this.handleTitle}
-               value={this.state.title}
-               onBlur={this.toggleEditable}
-        ></Input>)
-    } else {
-      return (<h1 id="title"
-                  onClick={this.toggleEditable}>
-                  {this.state.title}
-              </h1>)
-    }
-
+    return (
+      <div>
+        { this.state.editable ?
+          <Input id="input"
+              placeholder="Moodboard.io"
+              onChange={this.handleTitle}
+              value={this.state.title}
+              onBlur={this.toggleEditable}
+          ></Input> :
+          <h1 id="title"
+              onClick={this.toggleEditable}>
+                {this.state.title}
+          </h1>
+        } 
+      </div>
+    )
   }
 }
 
