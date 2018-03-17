@@ -5,6 +5,8 @@
   text-align: center;
 }
 
+/********* TITLE **********/ 
+
 #input {
   font-family: 'Inconsolata', monospace;
   font-size: 32px;
@@ -32,6 +34,8 @@
   top: 25vh;
   left: 37.5vw;
 }
+
+/********* BUTTON **********/ 
 
 .btn {
   font-family: Courier New;
