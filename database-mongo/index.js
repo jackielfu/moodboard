@@ -1,26 +1,35 @@
-var mongoose = require('mongoose');
+const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/test');
 
-var db = mongoose.connection;
+const db = mongoose.connection;
+const Schema = mongoose.Schema;
 
 db.on('error', function() {
-  console.log('mongoose connection error');
+  console.log('ERROR: Mongoose connection error!');
 });
 
 db.once('open', function() {
-  console.log('mongoose connected successfully');
+  console.log('SUCCESS: Mongoose connected successfully!');
 });
 
 /************ HELPER FUNCTIONS *************/
 
-var selectAll = function(callback) {
-  Item.find({}, function(err, items) {
-    if(err) {
-      callback(err, null);
-    } else {
-      callback(null, items);
-    }
-  });
-};
+const boardSchema = new Schema({
+  title: String,
+  images: [ { path: String } ],
+  userId: String
+});
 
-module.exports.selectAll = selectAll;
+let Board = mongoose.model('Board', boardSchema);
+
+let saveBoard = (board) => {
+  new Board ({
+    id: board.id,
+    title: board.title,
+    images: board.images
+  })
+  .save()
+  .then( () => {
+    console.log(board.name, 'was saved to the database.')
+  });
+}

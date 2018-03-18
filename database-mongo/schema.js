@@ -1,25 +1,30 @@
-var mongoose = require('mongoose');
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 
-var userSchema = mongoose.Schema({
+const userSchema = new Schema({
   username: String,
   password: String,
-  boards: Array
+  boards: Array // of boardIds
 });
 
-var boardSchema = mongoose.Schema({
+const boardSchema = new Schema({
   title: String,
-  images: Array,
+  images: [ { path: String } ],
   userId: String
 });
 
-var imageSchema = mongoose.Schema({
-  path: String,
-  userId: String,
-  boardId: String
-});
+// const imageSchema = new Schema({
+//   path: String,
+//   userId: String,
+//   boardId: String
+// });
 
-var User = mongoose.model('User', userSchema);
-var Board = mongoose.model('Board', boardSchema);
-var Image = mongoose.model('Image', imageSchema);
+const User = mongoose.model('User', userSchema);
+const Board = mongoose.model('Board', boardSchema);
+// const Image = mongoose.model('Image', imageSchema);
 
-module.exports = {'User': User, 'Board': Board, 'Image': Image};
+module.exports = {
+  User,
+  Board,
+  // Image
+};
