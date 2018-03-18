@@ -12,10 +12,10 @@ Moodboard.io is a simple, bare-bones moodboard generator that grabs any image UR
 
 > "My summer 2018 aesthetic is hoe... but make it fashion." -Jackie Fu, developer
 
+> "Moodboard cleared my acne, watered my crops, and cured my depression." -Someone, probably 
+
 #### How to use it ####
 1. Upload image.
 2. Profit.
-
-> "Moodboard cleared my acne, watered my crops, and cured my depression." -Someone, probably 
 
 ## Head over to [Moodboard](http://moodboarded.herokuapp.com) to get started. ##
