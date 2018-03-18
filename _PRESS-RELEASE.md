@@ -17,7 +17,7 @@ Once the project moves into development, the press release can be used as a touc
  -->
  
 ## A minimalist moodboard ##
-  > Gather one, gather all (images). Making a test change!
+  > Gather one, gather all (images).
 
 ## Summary ##
   > For the person who needs to curate their Spring/Summer vs. Fall/Winter aestheti'que'. 
