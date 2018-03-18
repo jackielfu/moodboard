@@ -17,10 +17,10 @@ Once the project moves into development, the press release can be used as a touc
  -->
  
 ## A minimalist moodboard ##
-  > Gather one, gather all (images). This is Jackie's Moodboard project.
+  > Gather one, gather all (images). This is Jackie's Moodboard project!
 
 ## Summary ##
-  > For the person who needs to curate their Spring/Summer vs. Fall/Winter aestheti`que`. 
+  > For the person who needs to curate their Spring/Summer vs. Fall/Winter aestheti'que'. 
   > For the person upgrading their interior design to a Scandinavian post-modern architecture that doesn't scream "IKEA".
   > But mainly for the person trying to draw inspiration from a bunch of images mish-mashed together in a semi-random, pleasing manner.
 
