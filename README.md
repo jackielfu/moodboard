@@ -18,4 +18,4 @@ Moodboard.io is a simple, bare-bones moodboard generator that grabs any image UR
 1. Upload image.
 2. Profit.
 
-## Head over to [Moodboard](http://moodboarded.herokuapp.com) to get started. ##
+### Head over to [Moodboard](http://moodboarded.herokuapp.com) to get started. ###
