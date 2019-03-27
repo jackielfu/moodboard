@@ -1,3 +1,5 @@
+This was built as my first coding project at Hack Reactor.
+
 ## A minimalist moodboard ##
 Gather one, gather all (images).
 
