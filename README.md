@@ -1,6 +1,8 @@
 This was built as my first coding project at Hack Reactor.
 
 ## A minimalist moodboard ##
+#### Demo here: [Moodboard](http://moodboarded.herokuapp.com) ####
+
 Gather one, gather all (images).
 
 For the person who needs to curate their spring/summer vs. fall/winter aestheti*que*. 
@@ -15,9 +17,3 @@ Moodboard.io is a simple, bare-bones moodboard generator that grabs any image UR
 > "My summer 2018 aesthetic is hoe... but make it fashion." -Jackie Fu, developer
 
 > "Moodboard cleared my acne, watered my crops, and cured my depression." -Someone, probably 
-
-#### How to use it: ####
-1. Upload image.
-2. Profit.
-
-#### Head over to [Moodboard](http://moodboarded.herokuapp.com) to get started. ####
